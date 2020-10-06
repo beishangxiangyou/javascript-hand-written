@@ -1,9 +1,9 @@
 # javascript-hand-written
 前端面试，高频手写题，巩固你的 **javascript** 基础知识
 
-#### 题目总览
-* 01、数组扁平化
-  - 使用flat()
+### 总览
+* #### 01、数组扁平化
+  - ##### 使用flat()
       ```javascript
     const arr1 = [0, 1, 2, [3, 4]]
     console.log(arr1.flat()) // expected output: [0, 1, 2, 3, 4]
@@ -18,7 +18,7 @@
     const arr4 = [1, 2, [3, 4, [5, 6, [7, 8, [9, 10]]]]]
     console.log(arr4.flat(Infinity)) // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
       ```
-  - 利用正则
+  - ##### 利用正则
       ```javascript
     const arr = [1, [2, [3, [4, 5]]], 6]
     // => [1, 2, 3, 4, 5, 6]
@@ -33,48 +33,48 @@
     
     console.log(res)
       ```
-  - 正则改良版本
+  - ##### 正则改良版本
       ```javascript
     const arr = [1, [2, [3, [4, 5]]], 6]
     const res = JSON.parse('[' + JSON.stringify(arr).replace(/\[|\]/g, '') + ']')
     
     console.log(res)
       ```
-  - 使用reduce
+  - ##### 使用reduce
       ```javascript
     const arr = [1, [2, [3, [4, 5]]], 6]
     // => [1, 2, 3, 4, 5, 6]
     
     const flatten = arr => {
-      return arr.reduce((pre, cur) => {
-        return pre.concat(Array.isArray(cur) ? flatten(cur) : cur)
-      }, [])
+        return arr.reduce((pre, cur) => {
+          return pre.concat(Array.isArray(cur) ? flatten(cur) : cur)
+        }, [])
     }
     const res = flatten(arr)
     
     console.log(res)
       ```
-  - 函数递归
+  - ##### 函数递归
       ```javascript
     const arr = [1, [2, [3, [4, 5]]], 6]
     // => [1, 2, 3, 4, 5, 6]
     
     const res = []
     const fn = arr => {
-      for (let i = 0; i < arr.length; i++) {
-        if (Array.isArray(arr[i])) {
-          fn(arr[i])
-        } else {
-          res.push(arr[i])
+        for (let i = 0; i < arr.length; i++) {
+          if (Array.isArray(arr[i])) {
+            fn(arr[i])
+          } else {
+            res.push(arr[i])
+          }
         }
-      }
     }
     fn(arr)
     
     console.log(res)
       ```
-* 02、数组去重
-  - 利用Set
+* #### 02、数组去重
+  - ##### 利用Set
       ```javascript
     const arr = [1, 1, '1', 17, true, true, false, false, 'true', 'a', {}, {}]
     // => [1, '1', 17, true, false, 'true', 'a', {}, {}]
@@ -83,7 +83,7 @@
     
     console.log(res)
       ```
-  - 两层for循环 + splice
+  - ##### 两层for循环 + splice
       ```javascript
     const arr = [1, 1, '1', 17, true, true, false, false, 'true', 'a', {}, {}]
     // => [1, '1', 17, true, false, 'true', 'a', {}, {}]
@@ -105,50 +105,50 @@
     
     console.log(unique(arr))
       ```
-  - 利用indexOf
+  - ##### 利用indexOf
       ```javascript
     const arr = [1, 1, '1', 17, true, true, false, false, 'true', 'a', {}, {}]
     // => [1, '1', 17, true, false, 'true', 'a', {}, {}]
     
     const unique = arr => {
-      const res = []
-      for (let i = 0; i < arr.length; i++) {
-        if (res.indexOf(arr[i]) === -1) res.push(arr[i])
-      }
-      return res
+        const res = []
+        for (let i = 0; i < arr.length; i++) {
+          if (res.indexOf(arr[i]) === -1) res.push(arr[i])
+        }
+        return res
     }
     
     console.log(unique(arr))
       ```
-  - 利用include
+  - ##### 利用include
       ```javascript
     const arr = [1, 1, '1', 17, true, true, false, false, 'true', 'a', {}, {}]
     // => [1, '1', 17, true, false, 'true', 'a', {}, {}]
     
     const unique = arr => {
-      const res = []
-      for (let i = 0; i < arr.length; i++) {
-        if (!res.includes(arr[i])) res.push(arr[i])
-      }
-      return res
+        const res = []
+        for (let i = 0; i < arr.length; i++) {
+          if (!res.includes(arr[i])) res.push(arr[i])
+        }
+        return res
     }
     
     console.log(unique(arr))
       ```
-  - 利用filter
+  - ##### 利用filter
       ```javascript
     const arr = [1, 1, '1', 17, true, true, false, false, 'true', 'a', {}, {}]
     // => [1, '1', 17, true, false, 'true', 'a', {}, {}]
     
     const unique = arr => {
-      return arr.filter((item, index) => {
-        return arr.indexOf(item) === index
-      })
+        return arr.filter((item, index) => {
+          return arr.indexOf(item) === index
+        })
     }
     
     console.log(unique(arr))
       ```
-  - 利用Map
+  - ##### 利用Map
       ```javascript
     const arr = [1, 1, '1', 17, true, true, false, false, 'true', 'a', {}, {}]
     // => [1, '1', 17, true, false, 'true', 'a', {}, {}]
@@ -167,158 +167,158 @@
     
     console.log(unique(arr))
       ```
-* 03、类数组转化为数组
-  - Array.from 
+* #### 03、类数组转化为数组
+  - ##### Array.from 
       ```javascript
     const divs = Array.from(document.querySelectorAll('div'))
     
     console.log(divs, Array.isArray(divs))
       ```
-  - Array.prototype.slice.call()
+  - ##### Array.prototype.slice.call()
       ```javascript
     const divs = Array.prototype.slice.call(document.querySelectorAll('div'))
     
     console.log(divs, Array.isArray(divs))
       ```
-  - 扩展运算符
+  - ##### 扩展运算符
       ```javascript
     const divs = [...document.querySelectorAll('div')]
     console.log(divs, Array.isArray(divs))
       ```
-  - 利用concat
+  - ##### 利用concat
       ```javascript
     const divs = Array.prototype.concat.apply([], document.querySelectorAll('div'))
     
     console.log(divs, Array.isArray(divs))
       ```
-* 04、Array.prototype.filter()
+* #### 04、Array.prototype.filter()
     ```javascript
   
     ```
-* 05、Array.prototype.map()
+* #### 05、Array.prototype.map()
     ```javascript
   
     ```
-* 06、Array.prototype.forEach()
+* #### 06、Array.prototype.forEach()
     ```javascript
   
     ```
-* 07、Array.prototype.reduce()
+* #### 07、Array.prototype.reduce()
     ```javascript
   
     ```
-* 08、Function.prototype.apply()
+* #### 08、Function.prototype.apply()
     ```javascript
   
     ```
-* 09、Function.prototype.call()
+* #### 09、Function.prototype.call()
     ```javascript
   
     ```
-* 10、Function.prototype.bind()
+* #### 10、Function.prototype.bind()
     ```javascript
   
     ```
-* 11、debounce（防抖）
+* #### 11、debounce（防抖）
     ```javascript
   
     ```
-* 12、throttle（节流）
+* #### 12、throttle（节流）
     ```javascript
   
     ```
-* 13、函数柯里化
+* #### 13、函数柯里化
     ```javascript
   
     ```
-* 14、模拟new操作
+* #### 14、模拟new操作
     ```javascript
   
     ```
-* 15、instanceof
+* #### 15、instanceof
     ```javascript
   
     ```
-* 16、原型继承
+* #### 16、原型继承
     ```javascript
   
     ```
-* 17、Object.is
+* #### 17、Object.is
     ```javascript
   
     ```
-* 18、Object.assign
+* #### 18、Object.assign
     ```javascript
   
     ```
-* 19、深拷贝
+* #### 19、深拷贝
     ```javascript
   
     ```
-* 20、Promise
+* #### 20、Promise
     ```javascript
   
     ```
-* 21、Promise.all
+* #### 21、Promise.all
     ```javascript
   
     ```
-* 22、Promise.race
+* #### 22、Promise.race
     ```javascript
   
     ```
-* 23、Promise并行限制
+* #### 23、Promise并行限制
     ```javascript
   
     ```
-* 24、JSONP
+* #### 24、JSONP
     ```javascript
   
     ```
-* 25、AJAX
+* #### 25、AJAX
     ```javascript
   
     ```
-* 26、event模块
+* #### 26、event模块
     ```javascript
   
     ```
-* 27、图片懒加载
+* #### 27、图片懒加载
     ```javascript
   
     ```
-* 28、滚动加载
+* #### 28、滚动加载
     ```javascript
   
     ```
-* 29、渲染几万条数据不卡住页面
+* #### 29、渲染几万条数据不卡住页面
     ```javascript
   
     ```
-* 30、打印出当前网页使用了多少种HTML元素
+* #### 30、打印出当前网页使用了多少种HTML元素
     ```javascript
   
     ```
-* 31、将VirtualDom转化为真实DOM结构
+* #### 31、将VirtualDom转化为真实DOM结构
     ```javascript
   
     ```
-* 32、字符串解析问题
+* #### 32、字符串解析问题
     ```javascript
   
     ```
-* 33、Vue2.0响应式
+* #### 33、Vue2.0响应式
     ```javascript
   
     ```
-* 34、Vue3.0响应式
+* #### 34、Vue3.0响应式
     ```javascript
   
     ```
-* 35、TODO...
+* #### 35、TODO...
     ```javascript
   
     ```
 
 
-#### 参考：https://juejin.im/post/6875152247714480136
+### 参考：https://juejin.im/post/6875152247714480136
