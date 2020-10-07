@@ -216,8 +216,8 @@
   }
   
   const res = arr.filter(function (value, key, originArr) {
-    // console.log(value, key, originArr)
-    return value > 0
+      // console.log(value, key, originArr)
+      return value > 0
   })
   
   console.log(res)
@@ -247,7 +247,7 @@
   
   const res = arr.map(function (value, key, originArr) {
     // console.log(value, key, originArr)
-    return value * 2
+      return value * 2
   })
   
   console.log(res)
@@ -276,8 +276,8 @@
   }
   
   const res = arr.forEach(function (value, key, originArr) {
-    // do anything you want
-    console.log(key, value)
+      // do anything you want
+      console.log(key, value)
   })
   
   console.log(res)
@@ -327,7 +327,7 @@
   }
   
   const res = arr.reduce(function (accumulator, currentValue, key, originArr) {
-    return accumulator + ',' + currentValue
+      return accumulator + ',' + currentValue
   }, '测试')
   
   console.log(res)
