@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30984fd3-3518-4640-a84e-ca7b0b3311ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/08_Function.prototype.apply()/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/08_Function.prototype.apply()/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_Function.prototype.call()/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_Function.prototype.call()/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/10_Function.prototype.bind()/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/10_Function.prototype.bind()/index.js" afterDir="false" />
+    <list default="true" id="6e066759-f9fe-4f16-8e16-5a42f7dc4493" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/17_Object.is【忽略，基本不会考】/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/11_debounce（防抖）/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/11_debounce（防抖）/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/11_debounce（防抖）/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/11_debounce（防抖）/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/12_throttle（节流）/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/12_throttle（节流）/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/13_函数柯里化/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/13_函数柯里化/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/14_模拟new操作/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/14_模拟new操作/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/15_instanceof/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/15_instanceof/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/16_原型继承/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/16_原型继承/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/17_Object.is/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/17_Object.is【忽略，基本不会考】/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/17_Object.is/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/18_Object.assign/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/18_Object.assign/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/19_深拷贝/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/19_深拷贝/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,37 +31,40 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/10_Function.prototype.bind()/index.html">
+        <entry file="file://$PROJECT_DIR$/src/19_深拷贝/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="125">
+              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/19_深拷贝/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="31" lean-forward="true" selection-end-line="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/10_Function.prototype.bind()/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="3521">
+                <caret line="638" column="61" lean-forward="true" selection-start-line="638" selection-start-column="61" selection-end-line="638" selection-end-column="61" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>;</find>
-      <find>利用include</find>
+      <find>原型继承</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -57,68 +73,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/14_模拟new操作/index.html" />
-        <option value="$PROJECT_DIR$/src/15_instanceof/index.html" />
-        <option value="$PROJECT_DIR$/src/16_原型继承/index.html" />
-        <option value="$PROJECT_DIR$/src/17_Object.is/index.html" />
-        <option value="$PROJECT_DIR$/src/18_Object.assign/index.html" />
-        <option value="$PROJECT_DIR$/src/19_深拷贝/index.html" />
-        <option value="$PROJECT_DIR$/src/20_Promise/index.html" />
-        <option value="$PROJECT_DIR$/src/21_Promise.all/index.html" />
-        <option value="$PROJECT_DIR$/src/22_Promise.race/index.html" />
-        <option value="$PROJECT_DIR$/src/23_Promise并行限制/index.html" />
-        <option value="$PROJECT_DIR$/src/24_JSONP/index.html" />
-        <option value="$PROJECT_DIR$/src/25_AJAX/index.html" />
-        <option value="$PROJECT_DIR$/src/26_event模块/index.html" />
-        <option value="$PROJECT_DIR$/src/27_图片懒加载/index.html" />
-        <option value="$PROJECT_DIR$/src/28_滚动加载/index.html" />
-        <option value="$PROJECT_DIR$/src/29_渲染几万条数据不卡住页面/index.html" />
-        <option value="$PROJECT_DIR$/src/30_打印出当前网页使用了多少种HTML元素/index.html" />
-        <option value="$PROJECT_DIR$/src/31_将VirtualDom转化为真实DOM结构/index.html" />
-        <option value="$PROJECT_DIR$/src/32_字符串解析问题/index.html" />
-        <option value="$PROJECT_DIR$/src/33_Vue2.0响应式/index.html" />
-        <option value="$PROJECT_DIR$/src/34_Vue3.0响应式/index.html" />
-        <option value="$PROJECT_DIR$/src/01_数组扁平化/2_利用正则/index.js" />
-        <option value="$PROJECT_DIR$/src/01_数组扁平化/3_正则改良版本/index.js" />
-        <option value="$PROJECT_DIR$/src/01_数组扁平化/4_使用reduce/index.js" />
-        <option value="$PROJECT_DIR$/src/01_数组扁平化/5_函数递归/index.js" />
-        <option value="$PROJECT_DIR$/src/01_数组扁平化/1_使用flat()/index.js" />
-        <option value="$PROJECT_DIR$/src/02_数组去重/1_利用Set/index.js" />
-        <option value="$PROJECT_DIR$/src/02_数组去重/2_两层for循环 + splice/index.js" />
-        <option value="$PROJECT_DIR$/src/02_数组去重/3_利用indexOf/index.js" />
-        <option value="$PROJECT_DIR$/src/02_数组去重/4_利用include/index.js" />
-        <option value="$PROJECT_DIR$/src/02_数组去重/5_利用filter/index.js" />
-        <option value="$PROJECT_DIR$/src/02_数组去重/6_利用Map/index.js" />
-        <option value="$PROJECT_DIR$/src/03_类数组转化为数组/1_Array.from/index.html" />
-        <option value="$PROJECT_DIR$/src/03_类数组转化为数组/1_Array.from/index.js" />
-        <option value="$PROJECT_DIR$/src/03_类数组转化为数组/2_Array.prototype.slice.call()/index.html" />
-        <option value="$PROJECT_DIR$/src/03_类数组转化为数组/2_Array.prototype.slice.call()/index.js" />
-        <option value="$PROJECT_DIR$/src/03_类数组转化为数组/3_扩展运算符/index.html" />
-        <option value="$PROJECT_DIR$/src/03_类数组转化为数组/3_扩展运算符/index.js" />
-        <option value="$PROJECT_DIR$/src/03_类数组转化为数组/4_利用concat/index.js" />
-        <option value="$PROJECT_DIR$/src/03_类数组转化为数组/4_利用concat/index.html" />
-        <option value="$PROJECT_DIR$/src/10_Function.prototype.bind()/index.html" />
-        <option value="$PROJECT_DIR$/src/09_Function.prototype.call()/index.html" />
-        <option value="$PROJECT_DIR$/src/02_数组去重/4_利用includes/index.html" />
-        <option value="$PROJECT_DIR$/src/04_Array.prototype.filter()/index.js" />
-        <option value="$PROJECT_DIR$/src/05_Array.prototype.map()/index.js" />
-        <option value="$PROJECT_DIR$/src/06_Array.prototype.forEach()/index.js" />
-        <option value="$PROJECT_DIR$/src/07_Array.prototype.reduce()/index.js" />
+        <option value="$PROJECT_DIR$/src/16_原型继承/1_借助构造函数实现继承/index.html" />
+        <option value="$PROJECT_DIR$/src/16_原型继承/2_借助原型链实现继承/index.html" />
+        <option value="$PROJECT_DIR$/src/16_原型继承/3_组合方式-1/index.html" />
+        <option value="$PROJECT_DIR$/src/16_原型继承/4_组合方式-2/index.html" />
+        <option value="$PROJECT_DIR$/src/16_原型继承/5_组合方式-3/index.html" />
+        <option value="$PROJECT_DIR$/src/16_原型继承/1_借助构造函数实现继承/index.js" />
+        <option value="$PROJECT_DIR$/src/16_原型继承/2_借助原型链实现继承/index.js" />
+        <option value="$PROJECT_DIR$/src/16_原型继承/3_组合方式-1/index.js" />
+        <option value="$PROJECT_DIR$/src/16_原型继承/4_组合方式-2/index.js" />
+        <option value="$PROJECT_DIR$/src/16_原型继承/5_组合方式-3/index.js" />
+        <option value="$PROJECT_DIR$/src/17_Object.is/index.js" />
+        <option value="$PROJECT_DIR$/src/18_Object.assign/index.js" />
+        <option value="$PROJECT_DIR$/src/19_深拷贝/index.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/08_Function.prototype.apply()/index.js" />
-        <option value="$PROJECT_DIR$/src/09_Function.prototype.call()/index.js" />
-        <option value="$PROJECT_DIR$/src/10_Function.prototype.bind()/index.js" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/javascript-hand-written.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       </list>
     </option>
   </component>
@@ -145,12 +113,6 @@
               <item name="javascript-hand-written" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="javascript-hand-written" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javascript-hand-written" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="10_Function.prototype.bind()" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -159,23 +121,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="8.11.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/16_原型继承/5_组合方式-3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\z_ms_space\javascript-hand-written\src\34_Vue3.0响应式" />
-      <recent name="E:\z_ms_space\javascript-hand-written\src\33_Vue2.0响应式" />
-      <recent name="E:\z_ms_space\javascript-hand-written\src\32_字符串解析问题" />
-      <recent name="E:\z_ms_space\javascript-hand-written\src\31_将VirtualDom转化为真实DOM结构" />
-      <recent name="E:\z_ms_space\javascript-hand-written\src\30_打印出当前网页使用了多少种HTML元素" />
+      <recent name="E:\z_github_space\javascript-hand-written\src\16_原型继承\5_组合方式-3" />
+      <recent name="E:\z_github_space\javascript-hand-written\src\16_原型继承\4_组合方式-2" />
+      <recent name="E:\z_github_space\javascript-hand-written\src\16_原型继承\3_组合方式-1" />
+      <recent name="E:\z_github_space\javascript-hand-written\src\16_原型继承\2_借助原型链实现继承" />
+      <recent name="E:\z_github_space\javascript-hand-written\src\16_原型继承\1_借助构造函数实现继承" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -195,26 +153,28 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="30984fd3-3518-4640-a84e-ca7b0b3311ae" name="Default Changelist" comment="" />
-      <created>1601994556105</created>
+      <changelist id="6e066759-f9fe-4f16-8e16-5a42f7dc4493" name="Default Changelist" comment="" />
+      <created>1602298232469</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601994556105</updated>
-      <workItem from="1601994557283" duration="19737000" />
-      <workItem from="1602235792608" duration="1528000" />
+      <updated>1602298232469</updated>
+      <workItem from="1602298233631" duration="10254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21265000" />
+    <option name="totallyTimeSpent" value="10254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17386723" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1938883" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -222,393 +182,133 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14383562" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/30_打印出当前网页使用了多少种HTML元素/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/16_原型继承/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/31_将VirtualDom转化为真实DOM结构/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/16_原型继承/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/32_字符串解析问题/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/33_Vue2.0响应式/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/34_Vue3.0响应式/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1853" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/01_数组扁平化/1_使用flat()/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/01_数组扁平化/3_正则改良版本/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/01_数组扁平化/2_利用正则/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/01_数组扁平化/4_使用reduce/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/01_数组扁平化/5_函数递归/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/02_数组去重/1_利用Set/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/02_数组去重/2_两层for循环 + splice/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/02_数组去重/3_利用indexOf/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/02_数组去重/5_利用filter/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/02_数组去重/6_利用Map/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/03_类数组转化为数组/1_Array.from/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/03_类数组转化为数组/2_Array.prototype.slice.call()/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/03_类数组转化为数组/3_扩展运算符/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/03_类数组转化为数组/4_利用concat/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/01_数组扁平化/1_使用flat()/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="67" lean-forward="true" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/01_数组扁平化/2_利用正则/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/01_数组扁平化/3_正则改良版本/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/01_数组扁平化/4_使用reduce/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/01_数组扁平化/5_函数递归/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/02_数组去重/1_利用Set/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/02_数组去重/2_两层for循环 + splice/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/02_数组去重/3_利用indexOf/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/02_数组去重/5_利用filter/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/02_数组去重/6_利用Map/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/03_类数组转化为数组/1_Array.from/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/03_类数组转化为数组/2_Array.prototype.slice.call()/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/03_类数组转化为数组/3_扩展运算符/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/03_类数组转化为数组/4_利用concat/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/02_数组去重/4_利用includes/index.html">
+    <entry file="file://$PROJECT_DIR$/src/16_原型继承/1_借助构造函数实现继承/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/02_数组去重/4_利用includes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/04_Array.prototype.filter()/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/05_Array.prototype.map()/index.html">
+    <entry file="file://$PROJECT_DIR$/src/16_原型继承/1_借助构造函数实现继承/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <caret line="9" column="19" lean-forward="true" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/06_Array.prototype.forEach()/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/07_Array.prototype.reduce()/index.html">
+    <entry file="file://$PROJECT_DIR$/src/16_原型继承/2_借助原型链实现继承/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/04_Array.prototype.filter()/index.js">
+    <entry file="file://$PROJECT_DIR$/src/16_原型继承/2_借助原型链实现继承/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="125">
+          <caret line="5" column="36" lean-forward="true" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/05_Array.prototype.map()/index.js">
+    <entry file="file://$PROJECT_DIR$/src/16_原型继承/3_组合方式-1/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="54" lean-forward="true" selection-end-line="27" />
+        <state relative-caret-position="150">
+          <caret line="6" column="23" lean-forward="true" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/06_Array.prototype.forEach()/index.js">
+    <entry file="file://$PROJECT_DIR$/src/16_原型继承/3_组合方式-1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="11" lean-forward="true" selection-end-line="26" />
+        <state relative-caret-position="100">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-3678">
-            <caret line="180" column="42" lean-forward="true" selection-start-line="180" selection-start-column="42" selection-end-line="180" selection-end-column="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/07_Array.prototype.reduce()/index.js">
+    <entry file="file://$PROJECT_DIR$/src/16_原型继承/4_组合方式-2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/08_Function.prototype.apply()/index.html">
+    <entry file="file://$PROJECT_DIR$/src/16_原型继承/4_组合方式-2/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="23" lean-forward="true" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/16_原型继承/5_组合方式-3/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/16_原型继承/5_组合方式-3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/17_Object.is【忽略，基本不会考】/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/18_Object.assign/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/18_Object.assign/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/19_深拷贝/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/08_Function.prototype.apply()/index.js">
+    <entry file="file://$PROJECT_DIR$/src/19_深拷贝/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="34" lean-forward="true" selection-end-line="21" />
+          <caret line="7" column="31" lean-forward="true" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/09_Function.prototype.call()/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="67" lean-forward="true" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/09_Function.prototype.call()/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/10_Function.prototype.bind()/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/10_Function.prototype.bind()/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="3521">
+            <caret line="638" column="61" lean-forward="true" selection-start-line="638" selection-start-column="61" selection-end-line="638" selection-end-column="61" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
