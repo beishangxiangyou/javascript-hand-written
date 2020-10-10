@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30984fd3-3518-4640-a84e-ca7b0b3311ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/32_字符串解析问题【忽略，基本不会考】/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/24_JSONP/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/24_JSONP/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/25_AJAX/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/25_AJAX/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/26_event模块/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/26_event模块/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/27_图片懒加载/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/27_图片懒加载/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/28_滚动加载/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/28_滚动加载/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/29_渲染几万条数据不卡住页面/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/29_渲染几万条数据不卡住页面/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/30_打印出当前网页使用了多少种HTML元素/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/30_打印出当前网页使用了多少种HTML元素/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/31_将VirtualDom转化为真实DOM结构/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/31_将VirtualDom转化为真实DOM结构/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/32_字符串解析问题/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/32_字符串解析问题【忽略，基本不会考】/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/32_字符串解析问题/index.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +24,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/26_event模块/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/26_event模块/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,13 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/15_instanceof/index.html" />
-        <option value="$PROJECT_DIR$/src/16_原型继承/index.html" />
-        <option value="$PROJECT_DIR$/src/17_Object.is/index.html" />
-        <option value="$PROJECT_DIR$/src/18_Object.assign/index.html" />
-        <option value="$PROJECT_DIR$/src/19_深拷贝/index.html" />
-        <option value="$PROJECT_DIR$/src/20_Promise/index.html" />
-        <option value="$PROJECT_DIR$/src/21_Promise.all/index.html" />
         <option value="$PROJECT_DIR$/src/22_Promise.race/index.html" />
         <option value="$PROJECT_DIR$/src/23_Promise并行限制/index.html" />
         <option value="$PROJECT_DIR$/src/24_JSONP/index.html" />
@@ -90,7 +109,14 @@
         <option value="$PROJECT_DIR$/server/index.js" />
         <option value="$PROJECT_DIR$/src/24_JSONP/index.js" />
         <option value="$PROJECT_DIR$/src/25_AJAX/index.js" />
+        <option value="$PROJECT_DIR$/src/30_打印出当前网页使用了多少种HTML元素/index.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/32_字符串解析问题/index.js" />
+        <option value="$PROJECT_DIR$/src/27_图片懒加载/index.js" />
+        <option value="$PROJECT_DIR$/src/28_滚动加载/index.js" />
+        <option value="$PROJECT_DIR$/src/29_渲染几万条数据不卡住页面/index.js" />
+        <option value="$PROJECT_DIR$/src/31_将VirtualDom转化为真实DOM结构/index.js" />
+        <option value="$PROJECT_DIR$/src/26_event模块/index.js" />
       </list>
     </option>
   </component>
@@ -122,13 +148,7 @@
               <item name="javascript-hand-written" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript-hand-written" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="24_JSONP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javascript-hand-written" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javascript-hand-written" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="25_AJAX" type="462c0819:PsiDirectoryNode" />
+              <item name="26_event模块" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,12 +205,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28147000" />
+    <option name="totallyTimeSpent" value="32710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17702845" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17702845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -232,74 +253,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/32_字符串解析问题/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/33_Vue2.0响应式/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1853" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/01_数组扁平化/1_使用flat()/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/01_数组扁平化/3_正则改良版本/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/01_数组扁平化/2_利用正则/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/01_数组扁平化/4_使用reduce/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/01_数组扁平化/5_函数递归/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/02_数组去重/1_利用Set/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/02_数组去重/2_两层for循环 + splice/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/02_数组去重/3_利用indexOf/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -551,16 +504,6 @@
     <entry file="file://$PROJECT_DIR$/src/24_JSONP/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="188">
-            <caret line="503" column="14" lean-forward="true" selection-start-line="503" selection-start-column="14" selection-end-line="503" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/25_AJAX/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -579,6 +522,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/32_字符串解析问题【忽略，基本不会考】/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/30_打印出当前网页使用了多少种HTML元素/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/30_打印出当前网页使用了多少种HTML元素/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="308">
+            <caret line="763" column="7" lean-forward="true" selection-start-line="763" selection-start-column="7" selection-end-line="763" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/27_图片懒加载/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/28_滚动加载/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="119" selection-start-line="11" selection-start-column="119" selection-end-line="11" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/29_渲染几万条数据不卡住页面/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/31_将VirtualDom转化为真实DOM结构/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/31_将VirtualDom转化为真实DOM结构/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/26_event模块/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/26_event模块/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

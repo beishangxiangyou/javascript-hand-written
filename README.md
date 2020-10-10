@@ -772,7 +772,10 @@
     ```
 * #### 30、打印出当前网页使用了多少种HTML元素
     ```javascript
-  
+    const fn = () => {
+      return [...new Set([...document.querySelectorAll('*')])].map(el => el.tagName).length
+    }  
+    console.log(fn())
     ```
 * #### 31、将VirtualDom转化为真实DOM结构
     ```javascript
