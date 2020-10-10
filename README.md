@@ -434,20 +434,245 @@
   
     ```
 * #### 16、原型继承
-    ```javascript
-  
-    ```
+    - #### 借助构造函数实现继承
+      ```javascript
+      function Parent () {
+        this.name = 'Parent'
+      }
+      
+      Parent.prototype.say = function () {
+        console.log('say...')
+      }
+      
+      function Child () {
+        Parent.call(this)
+        this.nickname = '斗图王'
+      }
+      
+      const child = new Child()
+      console.log(child)
+      console.log(child.say()) // 报错，拿不到 Parent上的 say 方法
+
+      ```
+    - #### 借助原型链实现继承
+      ```javascript
+      function Parent () {
+        this.name = 'Parent'
+        this.fav = ['吃饭', '睡觉']
+      }
+      
+      Parent.prototype.say = function () {
+        console.log('say...')
+      }
+      
+      function Child () {
+        this.nickname = '斗图王'
+      }
+      
+      Child.prototype = new Parent()
+      
+      const child1 = new Child()
+      const child2 = new Child()
+      console.log(child1.fav === child2.fav) // 共享Parent中的fav
+      child1.say()
+
+      ```
+    - #### 组合方式-1
+      ```javascript
+      function Parent () {
+        this.name = 'Parent'
+        this.fav = ['吃饭', '睡觉']
+      }
+      
+      Parent.prototype.say = function () {
+        console.log('say...')
+      }
+      
+      function Child () {
+        Parent.call(this)
+        this.nickname = '斗图王'
+      }
+      
+      Child.prototype = new Parent() // new Parent()，多创建了一次 fav
+      
+      const child1 = new Child()
+      const child2 = new Child()
+      console.log(child1.fav === child2.fav)
+      child1.say()
+
+      ```
+    - #### 组合方式-2
+      ```javascript
+      function Parent () {
+        this.name = 'Parent'
+        this.fav = ['吃饭', '睡觉']
+      }
+      
+      Parent.prototype.say = function () {
+        console.log('say...')
+      }
+      
+      function Child () {
+        Parent.call(this)
+        this.nickname = '斗图王'
+      }
+      
+      Child.prototype = Parent.prototype
+      
+      const child = new Child()
+      child.say()
+      
+      console.log(child.constructor) //是 Parent，期望是 Child
+
+      ```
+    - #### 组合方式-3
+      ```javascript
+      function Parent () {
+        this.name = 'Parent'
+        this.fav = ['吃饭', '睡觉']
+      }
+      
+      Parent.prototype.say = function () {
+        console.log('say...')
+      }
+      
+      function Child () {
+        Parent.call(this)
+        this.nickname = '斗图王'
+      }
+      
+      Child.prototype = Object.create(Parent.prototype)
+      Child.prototype.constructor = Child
+      
+      const child = new Child()
+      child.say()
+      
+      console.log(child.constructor) // Child
+
+      ```                        
 * #### 17、Object.is
     ```javascript
+  Object.defineProperty(Object, 'assign', {
+    value (target, ...args) {
+      console.log('执行...')
+      if (target == null) throw new TypeError(target + ' is not Object')
+      const to = Object(target)
   
+      for (let i = 0; i < args.length; i++) {
+        const source = args[i]
+        if (typeof source === 'object' && source !== null) {
+          for (let key in source) {
+            if (Object.prototype.hasOwnProperty.call(source, key)) {
+              to[key] = source[key]
+            }
+          }
+        }
+      }
+      return to
+    },
+    enumerable: false,
+    writable: true,
+    configurable: true
+  })
+  
+  const target = {}
+  const source = {
+    name: '斗图王',
+    car: {
+      brand: '兰博基尼'
+    }
+  }
+  
+  Object.assign(target, source)
+  console.log(target.car === source.car)
+
     ```
 * #### 18、Object.assign
     ```javascript
-  
+    Object.defineProperty(Object, 'assign', {
+      value (target, ...args) {
+        console.log('执行...')
+        if (target == null) throw new TypeError(target + ' is not Object')
+        const to = Object(target)
+    
+        for (let i = 0; i < args.length; i++) {
+          const source = args[i]
+          if (typeof source === 'object' && source !== null) {
+            for (let key in source) {
+              if (Object.prototype.hasOwnProperty.call(source, key)) {
+                to[key] = source[key]
+              }
+            }
+          }
+        }
+        return to
+      },
+      enumerable: false,
+      writable: true,
+      configurable: true
+    })
+    
+    const target = {}
+    const source = {
+      name: '斗图王',
+      car: {
+        brand: '兰博基尼'
+      }
+    }
+    
+    Object.assign(target, source)
+    console.log(target.car === source.car)
+
     ```
 * #### 19、深拷贝
     ```javascript
-  
+    function deepClone (target, hash = new WeakMap()) {
+    
+      if (typeof target !== 'object' || target === null) return target
+    
+      if (hash.get(target)) return hash.get(target) // 有缓存
+    
+      const cloneTarget = Array.isArray(target) ? [] : {}
+      hash.set(target, cloneTarget)
+    
+      // 处理symbol key
+      const symbolKeys = Object.getOwnPropertySymbols(target)
+      if (symbolKeys.length) {
+        symbolKeys.forEach(symKey => {
+          if (typeof target[symKey] === 'object' && target[symKey] !== null) {
+            cloneTarget[symKey] = deepClone(target[symKey])
+          } else {
+            cloneTarget[symKey] = target[symKey]
+          }
+        })
+      }
+    
+      for (let key in target) {
+        if (Object.prototype.hasOwnProperty.call(target, key)) {
+          cloneTarget[key] =
+            typeof target[key] === 'object' && target[key] !== null
+              ? deepClone(target[key])
+              : target[key]
+        }
+      }
+    
+      return cloneTarget
+    
+    }
+    
+    const s1 = Symbol('s1')
+    const source = {
+      name: '斗图王',
+      [s1]: {
+        car: {
+          name: '兰博基尼'
+        }
+      }
+    }
+    
+    const target = deepClone(source)
+    console.log(target)
+
     ```
 * #### 20、Promise
     ```javascript
@@ -567,7 +792,36 @@
     ```
 * #### 35、Object.create
     ```javascript
-  
+    Object.assign(Object, 'create', {
+      value (proto, propertyObject) {
+        if (propertyObject == null) throw new TypeError('type error')
+    
+        function F () {
+    
+        }
+    
+        F.prototype = proto
+    
+        const obj = new F()
+        if (propertyObject !== undefined) {
+          Object.defineProperties(obj, propertyObject)
+        }
+    
+        if (proto == null) Object.setPrototypeOf(obj, null)
+    
+        return obj
+      },
+      enumerable: false,
+      configurable: true,
+      writable: true
+    })
+    
+    const proto = {
+      name: '斗图王'
+    }
+    const target = Object.create(proto)
+    console.log(target)
+
     ```
 
 
