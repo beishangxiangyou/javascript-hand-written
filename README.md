@@ -734,7 +734,7 @@
     ```javascript
   
     ```
-* #### 35、TODO...
+* #### 35、Object.create
     ```javascript
   
     ```
