@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30984fd3-3518-4640-a84e-ca7b0b3311ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/32_字符串解析问题/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/17_Object.is【忽略，基本不会考】/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/17_Object.is/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/17_Object.is【忽略，基本不会考】/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/17_Object.is/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/20_Promise/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/20_Promise/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/20_Promise/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/20_Promise/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/23_Promise并行限制/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/23_Promise并行限制/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/29_渲染几万条数据不卡住页面/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/29_渲染几万条数据不卡住页面/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/32_字符串解析问题【忽略，基本不会考】/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/32_字符串解析问题/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/32_字符串解析问题【忽略，基本不会考】/index.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -111,7 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,6 +118,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,12 +166,13 @@
       <workItem from="1602144416209" duration="3030000" />
       <workItem from="1602258586004" duration="750000" />
       <workItem from="1602334200342" duration="2775000" />
-      <workItem from="1602406515948" duration="2828000" />
+      <workItem from="1602406515948" duration="3927000" />
+      <workItem from="1602505533463" duration="1323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39706000" />
+    <option name="totallyTimeSpent" value="42128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -337,23 +329,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/24_JSONP/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="308">
-            <caret line="763" column="7" lean-forward="true" selection-start-line="763" selection-start-column="7" selection-end-line="763" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/26_event模块/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -540,6 +515,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-992">
+            <caret line="763" column="7" lean-forward="true" selection-start-line="763" selection-start-column="7" selection-end-line="763" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="83" lean-forward="true" selection-start-line="3" selection-start-column="83" selection-end-line="3" selection-end-column="83" />
         </state>
       </provider>
     </entry>
