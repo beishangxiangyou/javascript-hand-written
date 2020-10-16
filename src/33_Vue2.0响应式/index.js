@@ -8,6 +8,7 @@ methods.forEach(key => {
     const result = originMethod.call(this, ...arguments)
     // observe(inserted)
     // dep.notify()
+    updateView()
     return result
   }
 })
@@ -17,7 +18,7 @@ function defineReactive (data, key, value) {
   // const dep = new Dep()
   Object.defineProperty(data, key, {
     get () {
-      // dep.depend
+      // dep.depend()
       return value
     },
     set (newVal) {
@@ -25,7 +26,8 @@ function defineReactive (data, key, value) {
         console.log(value, newVal)
         value = newVal
         observe(newVal)
-        // dep.notify
+        // dep.notify()
+        updateView()
       }
     },
     enumerable: true,
@@ -34,8 +36,7 @@ function defineReactive (data, key, value) {
 }
 
 function observe (data) {
-
-  if (typeof data !== 'object' || data == null) return
+  if (typeof data !== 'object' || data == null) return data
 
   if (Array.isArray(data)) {
     Object.setPrototypeOf(data, arrayMethods)
@@ -47,13 +48,19 @@ function observe (data) {
 }
 
 
+function updateView () {
+  console.log('更新视图...')
+}
+
 const obj = {
   name: '斗图王',
   car: {
     brand: '兰博基尼'
-  }
+  },
+  fav: ['吃饭', '睡觉', '上班']
 }
 
 observe(obj)
-obj.name = '请叫我斗图王'
-obj.car.brand = '法拉利'
+// obj.name = '请叫我斗图王'
+// obj.car.brand = '法拉利'
+obj.fav.push('赚钱')

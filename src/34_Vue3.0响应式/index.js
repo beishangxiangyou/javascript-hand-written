@@ -19,7 +19,7 @@ function reactive (obj) {
       return ret
     },
     deleteProperty (target, key) {
-      const ret = Reflect.defineProperty(target, key)
+      const ret = Reflect.deleteProperty(target, key)
       console.log('deleteProperty->', target, key)
       trigger(target, key)
       return ret
@@ -59,7 +59,9 @@ function track (target, key) {
       deps = new Set()
       depsMap.set(key, deps)
     }
-    deps.add(effectFn)
+    if (!deps.has(effectFn)) {
+      deps.add(effectFn)
+    }
   }
 }
 
@@ -77,7 +79,8 @@ const obj = {
   name: '斗图王',
   car: {
     brand: '兰博基尼'
-  }
+  },
+  fav: ['吃饭', '睡觉', '上班']
 }
 
 const state = reactive(obj)
