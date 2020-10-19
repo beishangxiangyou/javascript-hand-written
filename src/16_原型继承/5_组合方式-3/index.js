@@ -19,3 +19,6 @@ const child = new Child()
 child.say()
 
 console.log(child.constructor) // Child
+
+console.log(Object.getPrototypeOf(Child), Parent)
+console.log(Object.getPrototypeOf(Child) === Parent)
