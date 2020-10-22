@@ -1,6 +1,6 @@
 (function (window) {
   const PENDING = 'pending'
-  const FUFILLED = 'fufilled'
+  const FULFILLED = 'fulfilled'
   const REJECTED = 'rejected'
 
   function isFunction(func) {
@@ -14,7 +14,7 @@
 
     const resolve = value => {
       if (this.status !== PENDING) return
-      this.status = FUFILLED
+      this.status = FULFILLED
       this.data = value
 
       if (this.callbacks.length > 0) {
@@ -78,7 +78,7 @@
     }
 
     return new Promise((resolve, reject) => {
-      if (this.status === FUFILLED) {
+      if (this.status === FULFILLED) {
         setTimeout(() => {
           this._handler(onResolved, resolve, reject)
         })
